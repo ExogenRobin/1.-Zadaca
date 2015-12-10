@@ -40,8 +40,6 @@ namespace _1.zadatak {
             catch (IndexOutOfRangeException) {
 
             }
-
-
         }
 
         public void Clear() {
@@ -65,7 +63,6 @@ namespace _1.zadatak {
             else {
                 throw new System.IndexOutOfRangeException();
             }
-
         }
 
         public int IndexOf(int item) {
