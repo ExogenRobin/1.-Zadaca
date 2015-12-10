@@ -41,7 +41,7 @@ namespace _1.zadatak {
 
             }
 
-            
+
         }
 
         public void Clear() {
@@ -96,14 +96,6 @@ namespace _1.zadatak {
             _internalStorage[_sizeOfArray - 1] = 0;
             _count--;
             return true;
-        }
-
-        public void Write() {
-            Console.Write("[");
-            for (int i = 0; i < _sizeOfArray; i++) {
-                Console.Write(_internalStorage[i] + ",");
-            }
-            Console.Write("]\n");
         }
     }
 }
